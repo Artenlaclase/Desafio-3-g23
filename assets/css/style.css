@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400');
+
+html {
+    font-size: 100%;
+}
+
+/*16px*/
+
+body {
+    background: #000;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: white;
+}
+
+p {
+    margin-bottom: 1rem;
+}
+
+h1,
+h2 {
+    margin: 3rem 0 1.38rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+    font-size: 3rem;
+    opacity: 1;
+
+}
+
+.titulo {
+    width: 1280px;
+    height: 73;
+}
+
+header {
+    width: 1280px;
+    height: 727px;
+    background-image: url(../imgs/bg-header.jpg);
+    background-size: cover;
+}
+
+main {
+    width: 1280px;
+    height: 348px;
+}
+
+main img {
+    width: 399px;
+    height: 237px;
+    padding-left: 100px;
+
+}
+
+main img:hover {
+    transform: scale(1.5);
+}
+
+.contenido {
+    width: 475px;
+    height: 197px;
+    float: left;
+    text-align: left;
+    width: 50%;
+    margin-left: 10%;
+}
+
+.caracteristicas {
+    width: 100%;
+    text-align: center;
+    margin: 0;
+    border: solid 1px #333;
+    padding: 0.5em;
+    color: white;
+    background-color: #1e1a13;
+
+}
+
+#caracter:hover {
+    color: aquamarine;
+}
+
+.icono-tex {
+    display: inline-block;
+    width: 15%;
+    padding: 1%;
+}
+
+.icono-tex i:hover {
+    transform: scale(3);
+    background: greenyellow;
+}
+
+.galeria {
+    width: 100%;
+    text-align: center;
+}
+
+.iguana {
+    display: inline-block;
+    width: 24%;
+}
+
+.iguana img {
+    width: 316px;
+    height: 202px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+
+
+}
+
+.iguana img:hover {
+    transform: scale(1.5);
+}
+
+footer {
+    width: 1280px;
+    height: 102px;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+
+}
+
+footer a {
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-decoration: none;
+}
